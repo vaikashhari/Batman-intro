@@ -13,3 +13,10 @@
 .hero-content:after{bottom:48px;z-index:41}
 .navbar{z-index:60}
 @media(max-width:900px){.hero-content:after{bottom:42px}}
+
+/* Live hero final polish */
+.left,.right{background:linear-gradient(135deg,rgba(3,4,5,.54),rgba(3,4,5,.10));backdrop-filter:blur(2px)}
+.right{width:clamp(300px,22vw,370px);padding-left:20px;padding-right:20px}
+.right .st-title{font-size:clamp(37px,3.15vw,54px);line-height:.88;letter-spacing:.015em;max-width:330px}
+.right .st-text{max-width:330px;font-size:clamp(14px,.95vw,16px);line-height:1.45}
+@media(min-width:1500px){.right{width:340px}.right .st-title{font-size:47px}}
