@@ -1,16 +1,28 @@
-# React + Vite
+# Batman — Batcomputer Experience / Phase 3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cinematic React/Vite microsite built around an interactive Batman ↔ Bruce Wayne identity reveal.
 
-Currently, two official plugins are available:
+## Phase 3 experience
+- Wayne Tactical OS boot sequence and mission progress HUD
+- Cursor/touch Batman ↔ Bruce reveal with off-screen canvas pausing
+- Scroll-triggered cinematic section choreography
+- Interactive Gotham tactical map with six selectable nodes and intel dossiers
+- Batcave HUD / technology interface
+- Bruce Wayne identity chapter
+- Expandable Batcomputer/GCPD rogue case files
+- Atmospheric Bat-Signal finale and System Offline ending
+- Optional sound control (OFF by default)
+- Mobile-specific interaction labels and lighter visual treatment
+- Reduced-motion support
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run locally
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Production
+```bash
+npm run build
+npm run preview
+```
