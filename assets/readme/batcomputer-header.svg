@@ -1,0 +1,93 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Batman Batcomputer README Header</title>
+  <desc id="desc">Dark Batcomputer themed header with HUD lines, status boxes, and a Batman style emblem.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="0.45" stop-color="#08111E"/>
+      <stop offset="1" stop-color="#04070C"/>
+    </linearGradient>
+    <linearGradient id="hud" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="transparent"/>
+      <rect y="0" width="8" height="1" fill="#CFEAFF" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="520" rx="24" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="24" fill="url(#scan)"/>
+
+  <g opacity="0.14" stroke="#60A5FA" stroke-width="1">
+    <path d="M0 80H1600"/>
+    <path d="M0 160H1600"/>
+    <path d="M0 240H1600"/>
+    <path d="M0 320H1600"/>
+    <path d="M0 400H1600"/>
+    <path d="M200 0V520"/>
+    <path d="M520 0V520"/>
+    <path d="M920 0V520"/>
+    <path d="M1240 0V520"/>
+  </g>
+
+  <g opacity="0.22" stroke="#93C5FD" stroke-width="2">
+    <path d="M80 92H380"/>
+    <path d="M1220 92H1520"/>
+    <path d="M80 430H1520"/>
+  </g>
+
+  <rect x="80" y="64" width="225" height="42" rx="10" fill="#081422" stroke="#60A5FA"/>
+  <text x="96" y="91" fill="#DBEAFE" font-size="22" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">WAYNE TACTICAL OS</text>
+
+  <rect x="1315" y="64" width="205" height="42" rx="10" fill="#0B1320" stroke="#38BDF8"/>
+  <circle cx="1345" cy="85" r="7" fill="#22C55E" filter="url(#softGlow)"/>
+  <text x="1362" y="91" fill="#E0F2FE" font-size="20" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">SYSTEM ONLINE</text>
+
+  <text x="80" y="180" fill="#EAF4FF" font-size="64" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">BATMAN — BATCOMPUTER EXPERIENCE</text>
+  <text x="80" y="225" fill="#93C5FD" font-size="26" font-family="'Segoe UI', Arial, sans-serif">Interactive Gotham surveillance interface // Wayne Enterprises tactical node</text>
+
+  <g transform="translate(1065 125)">
+    <path d="M170 45c14-24 32-39 56-45-8 17-7 34 2 52 15 1 30 5 42 11-7 0-12 3-16 9-2 4-3 8-3 12 0 18 10 35 27 46-21 0-42-4-62-12-18 19-40 34-66 43-26-9-48-24-66-43-20 8-41 12-62 12 17-11 27-28 27-46 0-4-1-8-3-12-4-6-9-9-16-9 12-6 27-10 42-11 9-18 10-35 2-52 24 6 42 21 56 45 12-8 33-13 48-13 15 0 36 5 48 13Z" fill="url(#glow)" opacity="0.95" filter="url(#softGlow)"/>
+    <path d="M170 65c9-18 23-29 44-35-4 12-3 24 2 36 11 1 22 4 31 9-6 1-10 4-12 9-1 2-1 4-1 6 0 12 6 23 17 32-15-1-30-5-44-12-11 14-24 24-37 31-13-7-26-17-37-31-14 7-29 11-44 12 11-9 17-20 17-32 0-2 0-4-1-6-2-5-6-8-12-9 9-5 20-8 31-9 5-12 6-24 2-36 21 6 35 17 44 35 9-5 23-9 37-9 14 0 28 4 37 9Z" fill="#0B1020"/>
+  </g>
+
+  <g transform="translate(80 280)">
+    <rect x="0" y="0" width="650" height="110" rx="16" fill="#07111D" stroke="#1D4ED8"/>
+    <text x="22" y="30" fill="#7DD3FC" font-size="18" font-family="Consolas, 'Courier New', monospace">&gt; BOOT_SEQUENCE :: COMPLETED</text>
+    <text x="22" y="56" fill="#E2E8F0" font-size="18" font-family="Consolas, 'Courier New', monospace">&gt; ENCRYPTED_LINK :: GOTHAM SURVEILLANCE GRID</text>
+    <text x="22" y="82" fill="#E2E8F0" font-size="18" font-family="Consolas, 'Courier New', monospace">&gt; PROTOCOL :: KNIGHTFALL / ACCESS_LEVEL :: BATMAN</text>
+  </g>
+
+  <g transform="translate(770 292)">
+    <rect x="0" y="0" width="235" height="98" rx="16" fill="#06111A" stroke="#3B82F6"/>
+    <text x="20" y="28" fill="#7DD3FC" font-size="18" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">THREAT STATUS</text>
+    <text x="20" y="63" fill="#FCA5A5" font-size="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">ELEVATED</text>
+  </g>
+
+  <g transform="translate(1030 292)">
+    <rect x="0" y="0" width="235" height="98" rx="16" fill="#06111A" stroke="#3B82F6"/>
+    <text x="20" y="28" fill="#7DD3FC" font-size="18" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">BAT-SIGNAL</text>
+    <text x="20" y="63" fill="#86EFAC" font-size="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">READY</text>
+  </g>
+
+  <g transform="translate(1290 292)">
+    <rect x="0" y="0" width="230" height="98" rx="16" fill="#06111A" stroke="#3B82F6"/>
+    <text x="20" y="28" fill="#7DD3FC" font-size="18" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">GOTHAM GRID</text>
+    <text x="20" y="63" fill="#FDE68A" font-size="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">LOCKED</text>
+  </g>
+
+  <text x="80" y="474" fill="#64748B" font-size="16" font-family="Consolas, 'Courier New', monospace">WAYNE ENTERPRISES // BATCOMPUTER VISUAL INTERFACE // README HEADER ASSET</text>
+</svg>

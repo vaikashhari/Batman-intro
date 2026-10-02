@@ -1,0 +1,30 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Batcomputer terminal preview card</title>
+  <desc id="desc">A dark batcomputer style terminal card with glowing blue text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060B12"/>
+      <stop offset="1" stop-color="#0A1627"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="344" rx="16" stroke="#1D4ED8"/>
+  <circle cx="50" cy="50" r="7" fill="#EF4444"/>
+  <circle cx="74" cy="50" r="7" fill="#F59E0B"/>
+  <circle cx="98" cy="50" r="7" fill="#22C55E"/>
+  <text x="130" y="56" fill="#DBEAFE" font-size="22" font-family="Consolas, 'Courier New', monospace">BATCOMPUTER://TERMINAL</text>
+
+  <text x="48" y="105" fill="#7DD3FC" font-size="22" font-family="Consolas, 'Courier New', monospace" filter="url(#glow)">&gt; INIT WAYNE.TACTICAL.OS</text>
+  <text x="48" y="141" fill="#D6E4F5" font-size="22" font-family="Consolas, 'Courier New', monospace">[ OK ] Secure tunnel established</text>
+  <text x="48" y="177" fill="#D6E4F5" font-size="22" font-family="Consolas, 'Courier New', monospace">[ OK ] Gotham surveillance nodes synced</text>
+  <text x="48" y="213" fill="#D6E4F5" font-size="22" font-family="Consolas, 'Courier New', monospace">[ OK ] Batcave diagnostics operational</text>
+  <text x="48" y="249" fill="#D6E4F5" font-size="22" font-family="Consolas, 'Courier New', monospace">[ -- ] Awaiting command...</text>
+  <text x="48" y="303" fill="#FDE68A" font-size="24" font-family="Consolas, 'Courier New', monospace">BATCOMPUTER@GOTHAM:~$ HELP_</text>
+</svg>
