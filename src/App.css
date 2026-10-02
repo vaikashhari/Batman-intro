@@ -53,3 +53,10 @@ html{scroll-behavior:smooth;background:var(--ink)}body{background:var(--ink);col
 @media(max-width:900px){.live-telemetry{left:18px;right:auto;top:72px}.live-telemetry i:nth-of-type(n+2){display:none}.terminal-trigger{right:18px;top:72px}.terminal-shell{bottom:4vh;height:68vh}}
 @media(max-width:600px){.live-telemetry{display:none}.terminal-trigger{top:auto;bottom:58px;right:12px}.terminal-shell{width:96vw;height:72svh;bottom:2vh}.terminal-shell form{grid-template-columns:22px 1fr}.terminal-shell form button{display:none}.terminal-log{padding:20px 16px}.terminal-shell>small{line-height:1.6}.knightfall>div{padding:55px 20px}}
 @media(prefers-reduced-motion:reduce){.hotspot.active:after{animation:none}.map-shell:hover{transform:none}}
+
+
+/* Phase 6 — production/accessibility */
+.skip-link{position:fixed;z-index:3000;left:16px;top:-60px;background:#f4f1e8;color:#030405;padding:10px 14px;font:12px 'Bebas Neue';letter-spacing:.15em;transition:top .2s}.skip-link:focus{top:12px}
+button:focus-visible,a:focus-visible,[role="button"]:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@supports(content-visibility:auto){.gotham,.cave,.identity,.rogues,.signal,.offline{content-visibility:auto;contain-intrinsic-size:900px}}
+@media(max-width:600px){.world-depth,.cinema-noise{display:none}.map-sweep{animation-duration:14s}.clouds.c2{display:none}.signal-charge i:nth-child(2){display:none}}
