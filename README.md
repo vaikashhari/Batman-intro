@@ -1,23 +1,36 @@
-# Batman — Batcomputer Experience / Phase 4
+# Batman — Batcomputer Experience / Phase 5
 
 A cinematic React/Vite Batman microsite designed as an interactive Wayne Tactical OS session.
 
-## Phase 4
-- Scroll-driven hero camera push and identity-layer fade
-- Persistent cinematic depth HUD and scan texture
-- Expanded Gotham command map with architectural blocks, route tracing and six live nodes
-- Interactive city intel dossiers
-- Interactive Batcave equipment terminal with equipment diagnostics
-- Animated Batcave core telemetry
-- Scroll-reactive chapter choreography
-- Expandable GCPD/Batcomputer rogue case files
-- Powered Bat-Signal sequence with atmospheric particles and cloud motion
-- System shutdown scan / encrypted session ending
-- Optional generated interface tone, OFF by default
-- Responsive mobile treatment and reduced-motion fallbacks
+## Phase 5 — Living Gotham
+- Functional Batcomputer command terminal
+- Commands can scan Gotham, open city nodes, locate rogues, enter the Batcave and activate the Bat-Signal
+- Hidden `BATMAN` / Knightfall protocol
+- Live-looking Gotham incident, drone and grid telemetry
+- Keyboard terminal shortcut: Ctrl/Cmd + K
+- Reactive Gotham nodes and tactical map depth
+- Interactive Batcave equipment diagnostics
+- Scroll-driven hero camera and identity reveal
+- Animated GCPD/Batcomputer rogue case files
+- Atmospheric Bat-Signal power-up and encrypted shutdown
+- Responsive mobile terminal treatment
+- Reduced-motion support
+
+## Terminal commands
+```
+HELP
+SCAN GOTHAM
+OPEN ARKHAM
+OPEN WAYNE TOWER
+LOCATE JOKER
+LOCATE RIDDLER
+BATCAVE
+ACTIVATE SIGNAL
+BATMAN
+```
 
 ## Core interaction
-Move the cursor across the opening image (or drag on touch devices) to reveal the Bruce Wayne identity layer beneath Batman.
+Move the cursor across the opening image, or drag on touch devices, to reveal Bruce Wayne beneath Batman.
 
 ## Run locally
 ```bash
