@@ -12,7 +12,7 @@ const Hero = () => {
   const { scrollY } = useScroll()
   const heroScale = useTransform(scrollY, [0, 900], [1, 1.08])
   const heroY = useTransform(scrollY, [0, 900], [0, 90])
-  const copyOpacity = useTransform(scrollY, [0, 620], [1, 0])
+  const copyOpacity = useTransform(scrollY, [0, 140, 760], [1, 1, 0])
 
   useEffect(() => {
     const hero = heroRef.current
@@ -150,7 +150,7 @@ const Hero = () => {
 
       <motion.div
         className="hero-content"
-        style={{opacity:copyOpacity}}
+        style={{ opacity: copyOpacity }}
         variants={container}
         initial="hidden"
         animate="visible"
