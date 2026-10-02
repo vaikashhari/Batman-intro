@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { motion } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import './Hero.css'
 import Navbar from './Navbar'
 
@@ -9,6 +9,10 @@ const Hero = () => {
   const mouseRef  = useRef({ x: -9999, y: -9999 })
   const smoothRef = useRef({ x: -9999, y: -9999 })
   const trailRef  = useRef([])
+  const { scrollY } = useScroll()
+  const heroScale = useTransform(scrollY, [0, 900], [1, 1.08])
+  const heroY = useTransform(scrollY, [0, 900], [0, 90])
+  const copyOpacity = useTransform(scrollY, [0, 620], [1, 0])
 
   useEffect(() => {
     const hero = heroRef.current
@@ -138,7 +142,7 @@ const Hero = () => {
   return (
     <div className="hero" id="top" ref={heroRef}>
 
-      <canvas ref={canvasRef} className="hero-canvas" />
+      <motion.div className="hero-depth" style={{scale:heroScale,y:heroY}}><canvas ref={canvasRef} className="hero-canvas" /></motion.div>
 
       <motion.div variants={navbarVariant} initial="hidden" animate="visible">
         <Navbar />
@@ -146,6 +150,7 @@ const Hero = () => {
 
       <motion.div
         className="hero-content"
+        style={{opacity:copyOpacity}}
         variants={container}
         initial="hidden"
         animate="visible"
