@@ -1,19 +1,23 @@
-# Batman — Batcomputer Experience / Phase 3
+# Batman — Batcomputer Experience / Phase 4
 
-A cinematic React/Vite microsite built around an interactive Batman ↔ Bruce Wayne identity reveal.
+A cinematic React/Vite Batman microsite designed as an interactive Wayne Tactical OS session.
 
-## Phase 3 experience
-- Wayne Tactical OS boot sequence and mission progress HUD
-- Cursor/touch Batman ↔ Bruce reveal with off-screen canvas pausing
-- Scroll-triggered cinematic section choreography
-- Interactive Gotham tactical map with six selectable nodes and intel dossiers
-- Batcave HUD / technology interface
-- Bruce Wayne identity chapter
-- Expandable Batcomputer/GCPD rogue case files
-- Atmospheric Bat-Signal finale and System Offline ending
-- Optional sound control (OFF by default)
-- Mobile-specific interaction labels and lighter visual treatment
-- Reduced-motion support
+## Phase 4
+- Scroll-driven hero camera push and identity-layer fade
+- Persistent cinematic depth HUD and scan texture
+- Expanded Gotham command map with architectural blocks, route tracing and six live nodes
+- Interactive city intel dossiers
+- Interactive Batcave equipment terminal with equipment diagnostics
+- Animated Batcave core telemetry
+- Scroll-reactive chapter choreography
+- Expandable GCPD/Batcomputer rogue case files
+- Powered Bat-Signal sequence with atmospheric particles and cloud motion
+- System shutdown scan / encrypted session ending
+- Optional generated interface tone, OFF by default
+- Responsive mobile treatment and reduced-motion fallbacks
+
+## Core interaction
+Move the cursor across the opening image (or drag on touch devices) to reveal the Bruce Wayne identity layer beneath Batman.
 
 ## Run locally
 ```bash
