@@ -29,6 +29,7 @@ const Hero = () => {
     let rafId = 0
     let ready = false
     let active = false
+    let visible = true
 
     const cover = (context, image, width, height) => {
       const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight)
@@ -90,8 +91,15 @@ const Hero = () => {
         mask.globalCompositeOperation = 'source-over'
         ctx.drawImage(maskCanvas, 0, 0, width, height)
       }
-      rafId = requestAnimationFrame(draw)
+      if (visible) rafId = requestAnimationFrame(draw)
     }
+
+    const observer = new IntersectionObserver(([entry]) => {
+      visible = entry.isIntersecting
+      if (visible && ready) { cancelAnimationFrame(rafId); draw() }
+      else cancelAnimationFrame(rafId)
+    }, { threshold: 0.02 })
+    observer.observe(hero)
 
     resize()
     window.addEventListener('resize', resize, { passive: true })
@@ -107,6 +115,7 @@ const Hero = () => {
       hero.removeEventListener('pointermove', onMove)
       hero.removeEventListener('touchmove', onTouch)
       hero.removeEventListener('pointerleave', onLeave)
+      observer.disconnect()
       cancelAnimationFrame(rafId)
     }
   }, [])
