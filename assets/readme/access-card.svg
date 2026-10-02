@@ -1,0 +1,33 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Batcomputer access identity card</title>
+  <desc id="desc">Wayne Tactical OS access card with operator, protocol and Gotham network status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="1" stop-color="#0A1627"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="270" rx="20" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1160" height="230" rx="15" stroke="#1D4ED8"/>
+
+  <text x="50" y="62" fill="#93C5FD" font-size="18" font-family="Consolas, 'Courier New', monospace">WAYNE ENTERPRISES // IDENTITY AUTHORIZATION</text>
+  <text x="50" y="96" fill="#EAF4FF" font-size="31" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">BATCOMPUTER NODE 01</text>
+
+  <line x1="50" y1="116" x2="1150" y2="116" stroke="#1E40AF"/>
+
+  <text x="50" y="154" fill="#64748B" font-size="15" font-family="Consolas, 'Courier New', monospace">STATUS</text>
+  <text x="50" y="182" fill="#86EFAC" font-size="25" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">ONLINE</text>
+
+  <text x="270" y="154" fill="#64748B" font-size="15" font-family="Consolas, 'Courier New', monospace">LOCATION</text>
+  <text x="270" y="182" fill="#E2E8F0" font-size="25" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">GOTHAM CITY</text>
+
+  <text x="555" y="154" fill="#64748B" font-size="15" font-family="Consolas, 'Courier New', monospace">PROTOCOL</text>
+  <text x="555" y="182" fill="#FDE68A" font-size="25" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">KNIGHTFALL</text>
+
+  <text x="835" y="154" fill="#64748B" font-size="15" font-family="Consolas, 'Courier New', monospace">OPERATOR</text>
+  <text x="835" y="182" fill="#EAF4FF" font-size="25" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">BATMAN</text>
+
+  <rect x="50" y="210" width="1100" height="20" rx="10" fill="#06101A" stroke="#1E3A8A"/>
+  <rect x="55" y="215" width="860" height="10" rx="5" fill="#2563EB" opacity="0.8"/>
+  <text x="930" y="226" fill="#7DD3FC" font-size="13" font-family="Consolas, 'Courier New', monospace">SECURE LINK 78%</text>
+</svg>

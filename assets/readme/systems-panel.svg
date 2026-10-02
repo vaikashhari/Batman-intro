@@ -1,0 +1,74 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Batcomputer systems panel</title>
+  <desc id="desc">HUD style systems panel showing Gotham network modules and a mission timeline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="1" stop-color="#091727"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="24" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="472" rx="18" stroke="#1D4ED8"/>
+
+  <text x="50" y="68" fill="#E6F2FF" font-size="26" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">GOTHAM OPERATIONS GRID</text>
+  <text x="50" y="94" fill="#7DD3FC" font-size="16" font-family="Consolas, 'Courier New', monospace">WAYNE.TACTICAL.OS // MULTI-NODE STATUS VIEW</text>
+
+  <g transform="translate(50 128)">
+    <rect x="0" y="0" width="330" height="138" rx="16" fill="#07111D" stroke="#2563EB"/>
+    <text x="18" y="28" fill="#93C5FD" font-size="17" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">SURVEILLANCE</text>
+    <text x="18" y="63" fill="#86EFAC" font-size="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" filter="url(#glow)">ONLINE</text>
+    <text x="18" y="98" fill="#CBD5E1" font-size="16" font-family="Consolas, 'Courier New', monospace">28 CITY CAMERAS LINKED</text>
+    <text x="18" y="120" fill="#CBD5E1" font-size="16" font-family="Consolas, 'Courier New', monospace">5 ACTIVE TRACKING TARGETS</text>
+  </g>
+
+  <g transform="translate(435 128)">
+    <rect x="0" y="0" width="330" height="138" rx="16" fill="#07111D" stroke="#2563EB"/>
+    <text x="18" y="28" fill="#93C5FD" font-size="17" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">TERMINAL CORE</text>
+    <text x="18" y="63" fill="#FDE68A" font-size="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" filter="url(#glow)">ACTIVE</text>
+    <text x="18" y="98" fill="#CBD5E1" font-size="16" font-family="Consolas, 'Courier New', monospace">COMMAND PARSER READY</text>
+    <text x="18" y="120" fill="#CBD5E1" font-size="16" font-family="Consolas, 'Courier New', monospace">ENCRYPTION LAYER STABLE</text>
+  </g>
+
+  <g transform="translate(820 128)">
+    <rect x="0" y="0" width="330" height="138" rx="16" fill="#07111D" stroke="#2563EB"/>
+    <text x="18" y="28" fill="#93C5FD" font-size="17" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">KNIGHTFALL PROTOCOL</text>
+    <text x="18" y="63" fill="#FCA5A5" font-size="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" filter="url(#glow)">ARMED</text>
+    <text x="18" y="98" fill="#CBD5E1" font-size="16" font-family="Consolas, 'Courier New', monospace">FINAL SEQUENCE PREPARED</text>
+    <text x="18" y="120" fill="#CBD5E1" font-size="16" font-family="Consolas, 'Courier New', monospace">BAT-SIGNAL HANDSHAKE READY</text>
+  </g>
+
+  <g transform="translate(50 302)">
+    <rect x="0" y="0" width="1100" height="160" rx="16" fill="#06101A" stroke="#1E40AF"/>
+    <text x="18" y="30" fill="#93C5FD" font-size="18" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">MISSION LOG</text>
+
+    <circle cx="40" cy="64" r="7" fill="#22C55E"/>
+    <text x="58" y="70" fill="#E2E8F0" font-size="16" font-family="Consolas, 'Courier New', monospace">[00:00] Wayne Tactical OS booted successfully</text>
+    <line x1="40" y1="71" x2="40" y2="104" stroke="#2563EB" stroke-width="2"/>
+
+    <circle cx="40" cy="112" r="7" fill="#7DD3FC"/>
+    <text x="58" y="118" fill="#E2E8F0" font-size="16" font-family="Consolas, 'Courier New', monospace">[00:04] Gotham surveillance nodes synchronized</text>
+    <line x1="40" y1="119" x2="40" y2="152" stroke="#2563EB" stroke-width="2"/>
+
+    <circle cx="400" cy="64" r="7" fill="#FDE68A"/>
+    <text x="418" y="70" fill="#E2E8F0" font-size="16" font-family="Consolas, 'Courier New', monospace">[00:08] Terminal core awaiting operator command</text>
+    <line x1="400" y1="71" x2="400" y2="104" stroke="#2563EB" stroke-width="2"/>
+
+    <circle cx="400" cy="112" r="7" fill="#FCA5A5"/>
+    <text x="418" y="118" fill="#E2E8F0" font-size="16" font-family="Consolas, 'Courier New', monospace">[00:13] Threat matrix marked ELEVATED</text>
+    <line x1="400" y1="119" x2="400" y2="152" stroke="#2563EB" stroke-width="2"/>
+
+    <circle cx="760" cy="64" r="7" fill="#22C55E"/>
+    <text x="778" y="70" fill="#E2E8F0" font-size="16" font-family="Consolas, 'Courier New', monospace">[00:18] Bat-Signal channel initialized</text>
+    <line x1="760" y1="71" x2="760" y2="104" stroke="#2563EB" stroke-width="2"/>
+
+    <circle cx="760" cy="112" r="7" fill="#7DD3FC"/>
+    <text x="778" y="118" fill="#E2E8F0" font-size="16" font-family="Consolas, 'Courier New', monospace">[00:21] Interface ready for deployment</text>
+  </g>
+</svg>

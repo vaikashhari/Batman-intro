@@ -1,11 +1,12 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-  <title id="title">Batcomputer section divider</title>
-  <rect width="1200" height="70" rx="14" fill="#05070B"/>
-  <path d="M30 35H465" stroke="#1D4ED8" stroke-width="2"/>
-  <path d="M735 35H1170" stroke="#1D4ED8" stroke-width="2"/>
-  <circle cx="600" cy="35" r="6" fill="#7DD3FC"/>
-  <circle cx="600" cy="35" r="18" stroke="#2563EB" opacity="0.6"/>
-  <circle cx="600" cy="35" r="30" stroke="#2563EB" opacity="0.25"/>
-  <path d="M575 18L600 8L625 18L618 33L600 27L582 33L575 18Z" fill="#F5C54B" opacity="0.9"/>
-  <path d="M588 43H612" stroke="#93C5FD" stroke-width="2"/>
+<svg width="1200" height="72" viewBox="0 0 1200 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Batcomputer scanner divider</title>
+  <rect width="1200" height="72" rx="14" fill="#05070B"/>
+  <path d="M30 36H500" stroke="#1D4ED8" stroke-width="2" opacity="0.9"/>
+  <path d="M700 36H1170" stroke="#1D4ED8" stroke-width="2" opacity="0.9"/>
+  <circle cx="600" cy="36" r="8" fill="#7DD3FC"/>
+  <circle cx="600" cy="36" r="18" stroke="#2563EB" opacity="0.75"/>
+  <circle cx="600" cy="36" r="30" stroke="#2563EB" opacity="0.35"/>
+  <circle cx="600" cy="36" r="42" stroke="#2563EB" opacity="0.16"/>
+  <path d="M555 36H575M625 36H645M600 0V14M600 58V72" stroke="#60A5FA" stroke-width="2" opacity="0.6"/>
+  <path d="M587 30L600 24L613 30L609 39L600 36L591 39L587 30Z" fill="#F5C54B" opacity="0.9"/>
 </svg>
