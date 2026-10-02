@@ -61,10 +61,10 @@ Before release, test the experience with keyboard-only navigation, screen-reader
 
 Live demo: https://batman-intro.pages.dev/
 
-Add current screenshots here when available, for example:
-<img width="1919" height="960" alt="batcomputer-terminal" src="https://github.com/user-attachments/assets/aefecb48-5438-49b0-9356-5d5622c7863a" />
-<img width="1919" height="958" alt="gotham-grid" src="https://github.com/user-attachments/assets/7d326a39-0a6d-4dc4-9e9e-f6b443e64885" />
-<img width="1913" height="962" alt="hero" src="https://github.com/user-attachments/assets/6f3892b3-4665-4194-bd73-ba60d3ad4d7c" />
+<img width="1913" height="962" alt="hero" src="https://github.com/user-attachments/assets/c943e615-900f-4162-ab9c-309fce596e44" />
+<img width="1919" height="958" alt="gotham-grid" src="https://github.com/user-attachments/assets/ca7a3b46-a335-4578-95a4-ef01b7e7846e" />
+<img width="1919" height="960" alt="batcomputer-terminal" src="https://github.com/user-attachments/assets/a282080a-ed0d-4254-b442-8307a0639d9f" />
+
 
 
 ## Credits
