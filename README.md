@@ -208,6 +208,13 @@ npm run preview
   <img src="./assets/readme/divider.svg" alt="Batcomputer scanner divider" width="100%" />
 </p>
 
+## ✦ CREDITS // PROJECT
+
+<p align="center">
+  <strong>Built by Creatary Labs</strong><br />
+  <sub>Interactive web experiment · 2026</sub>
+</p>
+
 ## `SYSTEM NOTICE // DISCLAIMER`
 
 > This is an **unofficial, non-commercial Batman fan project**. Batman and related names, characters, and marks belong to their respective rights holders, including **DC** and **Warner Bros.** This project is a creative / portfolio experiment and is **not affiliated with, endorsed by, or an official product of DC or Warner Bros.**
