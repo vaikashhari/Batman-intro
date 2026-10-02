@@ -1,7 +1,7 @@
 {
-  "name": "vite-project",
+  "name": "batman-batcomputer-experience",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,5 +24,6 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
     "vite": "^8.0.12"
-  }
+  },
+  "description": "An unofficial cinematic Batman-inspired interactive Batcomputer experience built with React and Vite."
 }
