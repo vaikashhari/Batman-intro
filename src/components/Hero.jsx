@@ -28,7 +28,7 @@ const Hero = () => {
     const trail = trailRef.current
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const finePointer = window.matchMedia('(pointer: fine)').matches
-    const TRAIL_LENGTH = reducedMotion ? 1 : 34
+    const TRAIL_LENGTH = reducedMotion ? 1 : (window.innerWidth < 700 ? 14 : 28)
     let radius = Math.min(window.innerWidth * .14, 190)
     let rafId = 0
     let ready = false
@@ -43,7 +43,7 @@ const Hero = () => {
     }
 
     const resize = () => {
-      const dpr = Math.min(window.devicePixelRatio || 1, 1.5)
+      const dpr = Math.min(window.devicePixelRatio || 1, window.innerWidth < 700 ? 1 : 1.35)
       const width = hero.clientWidth
       const height = hero.clientHeight
       canvas.width = maskCanvas.width = Math.round(width * dpr)
