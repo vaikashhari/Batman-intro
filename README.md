@@ -17,13 +17,13 @@
 
 ```text
 ╔══════════════════════════════════════════════════════════════════════════╗
-║ WAYNE ENTERPRISES // TACTICAL SYSTEM                                    ║
-║ BATCOMPUTER NODE 01                                                     ║
+║ WAYNE ENTERPRISES // TACTICAL SYSTEM                                     ║
+║ BATCOMPUTER NODE 01                                                      ║
 ╠══════════════════════════════════════════════════════════════════════════╣
-║ STATUS       : ONLINE                                                   ║
-║ LOCATION     : GOTHAM CITY                                              ║
-║ PROTOCOL     : KNIGHTFALL                                               ║
-║ OPERATOR     : BATMAN                                                   ║
+║ STATUS       : ONLINE                                                    ║
+║ LOCATION     : GOTHAM CITY                                               ║
+║ PROTOCOL     : KNIGHTFALL                                                ║
+║ OPERATOR     : BATMAN                                                    ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
