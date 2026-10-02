@@ -74,3 +74,6 @@ button:focus-visible,a:focus-visible,[role="button"]:focus-visible,input:focus-v
 .live-telemetry{font-size:9px}
 .terminal-trigger{font-size:9px}
 .tactical-status,.tactical-actions button,.tactical-actions a{font-size:11px!important;letter-spacing:.16em!important}
+
+/* Creatary Labs signature */
+.creatary-credit{color:var(--gold)!important;letter-spacing:.24em;opacity:.72}
