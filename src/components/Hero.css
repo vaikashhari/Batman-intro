@@ -193,3 +193,11 @@
 .hero:after{transition:opacity .4s ease}.hero:hover:after{opacity:.88}
 .hero-content:after{content:'CURSOR REVEAL // IDENTITY LAYER';position:absolute;left:50%;bottom:24px;transform:translateX(-50%);font:8px 'Bebas Neue';letter-spacing:.28em;color:rgba(255,255,255,.35);white-space:nowrap}
 @media(max-width:900px){.hero-content:after{content:'DRAG ACROSS IMAGE // IDENTITY LAYER';bottom:18px}}
+
+/* Phase 4 — scroll camera */
+.hero-depth{position:absolute;inset:-2%;z-index:1;will-change:transform;transform-origin:center 42%}
+.hero-depth .hero-canvas{position:absolute;inset:0;width:100%;height:100%}
+.hero-content{will-change:opacity}
+.hero:before{box-shadow:0 0 24px rgba(196,162,77,.12)}
+@media(max-width:600px){.hero-depth{inset:0}}
+@media(prefers-reduced-motion:reduce){.hero-depth{transform:none!important}.hero-content{opacity:1!important}}
