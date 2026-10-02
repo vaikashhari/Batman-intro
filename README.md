@@ -186,10 +186,10 @@ LOG_005 :: Knightfall / Bat-Signal narrative finish armed
 
 ```bash
 # clone repository
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/vaikashhari/Batman-intro.git
 
 # enter project
-cd <your-repo>
+cd Batman-intro
 
 # install dependencies
 npm install
